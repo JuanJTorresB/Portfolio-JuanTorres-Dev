@@ -6,6 +6,9 @@ export default {
   ],
   theme: {
     extend: {
+      colors: {
+        amberMine: '#FCE7A2',
+      },
       fontFamily: {
         tanNimbus: ['TANNIMBUS', 'sans-serif'],
       },
@@ -13,4 +16,3 @@ export default {
 },
   plugins: [],
 }
-
