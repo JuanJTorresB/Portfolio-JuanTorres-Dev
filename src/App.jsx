@@ -12,6 +12,7 @@ export const App = () => {
             <BigName />
             <Separator />
             <AboutMe />
+            <Separator />
         </main>
     </div>
 }
