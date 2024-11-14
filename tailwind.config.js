@@ -8,9 +8,11 @@ export default {
     extend: {
       colors: {
         amberMine: '#FCE7A2',
+        separatorColor:"#D9D9D9"
       },
       fontFamily: {
         tanNimbus: ['TANNIMBUS', 'sans-serif'],
+        Ysabeau : ['Ysabeau', 'sans-serif'],
       },
   },
 },
