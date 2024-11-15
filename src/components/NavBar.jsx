@@ -3,7 +3,7 @@ export const NavBar = ()=>{
     const generalLetras = "font-tanNimbus font-normal size-7 text-nowrap text-slate-50 min-w-fit min-h-fit";
     const seccionSeleccionada = "bg-amber-300 px-10 pt-5 pb-10 rounded-full";
 
-    return <nav className="fixed top-0 left-0 right-0 max-w-7xl px-4 h-20 flex justify-evenly gap-32 mx-auto bg-amber-100 bg-opacity-10 rounded-full items-center border border-slate-50 backdrop-blur-lg">
+    return <nav className="fixed top-0 left-0 right-0 max-w-7xl px-4 h-20 flex justify-evenly gap-32 bg-amber-100 bg-opacity-10 rounded-full items-center border border-slate-50 backdrop-blur-lg z-10 mx-auto">
         <h4 className={generalLetras + " " + seccionSeleccionada}>About Me</h4>
         <h4 className={generalLetras}>Skills</h4>
         <svg className="w-16 min-h-16" viewBox="0 0 47 46" fill="none" xmlns="http://www.w3.org/2000/svg">

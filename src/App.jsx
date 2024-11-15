@@ -15,6 +15,7 @@ export const App = () => {
             <AboutMe />
             <Separator />
             <SkillsSection />
-        </main>
+            <Separator />
+            </main>
     </div>
 }
