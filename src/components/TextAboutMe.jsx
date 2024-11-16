@@ -4,7 +4,7 @@ export const TextAboutMe = ({ text }) => {
 
     return <div className="flex w-full justify-center gap-24 mt-8">
         <div className="max-w-[550px] p-4">
-            <p className={generalLetras + " " + "text-2xl text-justify text-amberMine tracking-wider"}>
+            <p className={generalLetras + " " + "text-2xl text-justify text-amberMine tracking-wider leading-loose"}>
                 {text}
             </p>
             <nav className="flex gap-6 mt-12">
