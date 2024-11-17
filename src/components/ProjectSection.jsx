@@ -1,5 +1,6 @@
 import { Titulo } from "./Titulo.jsx"
 import { ProjectCard } from './ProjectCard.jsx'
+import { ProjectCardNoImg } from "./ProjectCardNoImg.jsx"
 
 const iconsGranjaEstelar = [
     /* Star UML */
@@ -15,17 +16,15 @@ const iconsGranjaEstelar = [
 export const ProjectSection = () => {
     return <section className="text-center">
         <Titulo titulo="Projects" />
-        <div className="flex flex-col justify-center mt-16 items-center gap-8">
+        <div className="flex flex-wrap justify-center mt-16 items-center gap-8 max-w-[966px] mx-auto">
             <ProjectCard name="Granja Estelar Database"
                 imgUbi="public/GranjaEstelarDB.png"
                 description="Granja Estelar Database is a MySQL database designed to store and manage records related to farm production, providing easy access to information."
                 Icons={iconsGranjaEstelar} />
-            <ProjectCard name="Granja Estelar Database"
-                imgUbi="public/GranjaEstelarDB.png"
+            <ProjectCardNoImg name="Granja Estelar Database"
                 description="Granja Estelar Database is a MySQL database designed to store and manage records related to farm production, providing easy access to information."
                 Icons={iconsGranjaEstelar} />
-            <ProjectCard name="Granja Estelar Database"
-                imgUbi="public/GranjaEstelarDB.png"
+            <ProjectCardNoImg name="Granja Estelar Database"
                 description="Granja Estelar Database is a MySQL database designed to store and manage records related to farm production, providing easy access to information."
                 Icons={iconsGranjaEstelar} />
         </div>

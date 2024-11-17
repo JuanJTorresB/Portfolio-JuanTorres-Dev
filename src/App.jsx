@@ -18,6 +18,7 @@ export const App = () => {
             <SkillsSection />
             <Separator />
             <ProjectSection />
+            <Separator />
             </main>
     </div>
 }
