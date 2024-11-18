@@ -4,7 +4,8 @@ import { Separator } from "./components/Separator.jsx";
 import { AboutMe } from "./components/AboutMe.jsx";
 import { SkillsSection } from "./components/SkillsSection.jsx";
 import { ProjectSection } from "./components/ProjectSection.jsx";
- 
+import { ContactMeSection } from "./components/ContactMeSection.jsx";
+
 export const App = () => {
     return <div className="bg-stone-700 h-full box-border">
         <header>
@@ -19,6 +20,7 @@ export const App = () => {
             <Separator />
             <ProjectSection />
             <Separator />
-            </main>
+            <ContactMeSection />
+        </main>
     </div>
 }
