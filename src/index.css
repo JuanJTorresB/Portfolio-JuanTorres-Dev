@@ -15,3 +15,14 @@
     font-weight: 400;
     font-style: normal;
 }
+
+.active{
+    min-width: fit-content;
+    min-height: ;
+    background-color: #FCD34D;
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border-radius: 60px;
+}

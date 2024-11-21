@@ -14,7 +14,7 @@ const iconsGranjaEstelar = [
 ]
 
 export const ProjectSection = () => {
-    return <section className="text-center">
+    return <section id="Projects" className="text-center main-section">
         <Titulo titulo="My Projects" />
         <div className="flex flex-wrap justify-center mt-16 items-center gap-8 max-w-[966px] mx-auto">
             <ProjectCard name="Granja Estelar Database"

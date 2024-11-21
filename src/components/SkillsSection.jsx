@@ -139,7 +139,7 @@ const iconsTools = [
 
 ]
 
-    return <section className="text-center">
+    return <section id="Skills" className="text-center main-section">
         <Titulo titulo="My Skills"/>
         <div className="mt-16 flex justify-center flex-wrap gap-10 max-w-[985px] mx-auto">
         <SkillsCard Titulo="Frontend" Icons = {iconsFrontEnd} />
