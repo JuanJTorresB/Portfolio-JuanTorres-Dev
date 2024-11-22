@@ -13,20 +13,61 @@ const iconsGranjaEstelar = [
 
 ]
 
+const iconsTheGeeksHeaven = [
+    /* HTML */
+    <svg width="80" height="91" viewBox="0 0 80 91" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M7.27674 81.8175L0 0.141602H80L72.7233 81.7733L39.9338 90.8582" fill="#E44D26"/>
+<path d="M39.9997 83.913V6.8457H72.7009L66.4606 76.526" fill="#F16529"/>
+<path d="M14.8622 16.8342H40V26.8453H25.8434L26.7695 37.0988H40V47.0878H17.5964L14.8622 16.8342ZM18.0375 52.1154H28.0926L28.7982 60.1198L40 63.1187V73.5707L19.4487 67.8375" fill="#EBEBEB"/>
+<path d="M65.0491 16.8342H39.9554V26.8453H64.123L65.0491 16.8342ZM63.2189 37.0988H39.9554V47.1099H52.3038L51.1351 60.1198L39.9554 63.1187V73.5266L60.4626 67.8375" fill="white"/>
+</svg>,
+/* CSS */
+<svg width="80" height="91" viewBox="0 0 80 91" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M80 0.13562L72.7118 81.782L39.951 90.8644L7.28049 81.7948L0 0.13562H80Z" fill="#264DE4"/>
+<path d="M66.4723 76.5831L72.7005 6.8125H40V83.9222L66.4723 76.5831Z" fill="#2965F1"/>
+<path d="M16.6904 37.0988L17.588 47.1138H40V37.0988H16.6904Z" fill="#EBEBEB"/>
+<path d="M40 16.8276H39.9654H14.8867L15.7972 26.8429H40V16.8276Z" fill="#EBEBEB"/>
+<path d="M40 73.5289V63.1089L39.9561 63.1206L28.8021 60.1088L28.0891 52.1212H22.6692H18.0355L19.4386 67.8465L39.9539 73.5416L40 73.5289Z" fill="#EBEBEB"/>
+<path d="M52.298 47.1136L51.1354 60.1025L39.9654 63.1174V73.5369L60.497 67.8466L60.6477 66.1546L63.0011 39.7879L63.2455 37.0986L65.0535 16.8276H39.9654V26.8429H54.0778L53.1665 37.0986H39.9654V47.1136H52.298Z" fill="white"/>
+</svg>,
+/* Javascript */
+<svg width="80" height="81" viewBox="0 0 80 81" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M80 0.5H0V80.5H80V0.5Z" fill="#F7DF1E"/>
+<path d="M53.7397 63.0003C55.3511 65.6314 57.4476 67.5654 61.1555 67.5654C64.2705 67.5654 66.2603 66.0085 66.2603 63.8574C66.2603 61.2797 64.2159 60.3666 60.7873 58.867L58.9079 58.0606C53.4832 55.7495 49.8793 52.8543 49.8793 46.7336C49.8793 41.0955 54.1752 36.8035 60.8889 36.8035C65.6686 36.8035 69.1047 38.467 71.5809 42.8225L65.727 46.5812C64.4381 44.2701 63.0476 43.3597 60.8889 43.3597C58.687 43.3597 57.2914 44.7565 57.2914 46.5812C57.2914 48.8365 58.6882 49.7495 61.9136 51.1463L63.793 51.9514C70.1803 54.6904 73.7867 57.4828 73.7867 63.7609C73.7867 70.5292 68.4698 74.2371 61.3295 74.2371C54.3479 74.2371 49.8374 70.9101 47.6305 66.5495L53.7397 63.0003ZM27.1835 63.6517C28.3644 65.747 29.4387 67.5184 32.0216 67.5184C34.4914 67.5184 36.0495 66.552 36.0495 62.7946V37.2327H43.567V62.8962C43.567 70.6803 39.0032 74.2231 32.3416 74.2231C26.3225 74.2231 22.8368 71.1082 21.0641 67.3565L27.1835 63.6517Z" fill="black"/>
+</svg>
+]
+
+const iconsStarwarsApi = [
+    ...iconsTheGeeksHeaven, <svg width="80" height="49" viewBox="0 0 80 49" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <path d="M40 0.87085C29.333 0.87085 22.6665 6.20284 19.9995 16.8658C24 11.5338 28.6668 9.53508 33.9998 10.8676C37.0429 11.6279 39.2177 13.8357 41.6256 16.2786C45.5471 20.2581 50.0858 24.8638 60.0005 24.8638C70.6665 24.8638 77.334 19.5318 80 8.86784C76.0005 14.1998 71.3338 16.1996 65.9998 14.8671C62.9576 14.1068 60.7828 11.899 58.3749 9.45605C54.4534 5.47657 49.9137 0.87085 40 0.87085ZM19.9995 24.8638C9.3335 24.8638 2.666 30.1958 0 40.8598C3.9995 35.5278 8.66625 33.528 14.0003 34.8615C17.0424 35.6228 19.2172 37.8296 21.6251 40.2716C25.5466 44.251 30.0863 48.8578 40 48.8578C50.667 48.8578 57.3335 43.5258 60.0005 32.8618C56 38.1938 51.3333 40.1935 46.0003 38.86C42.9571 38.1007 40.7823 35.8919 38.3744 33.45C34.4529 29.4705 29.9142 24.8638 19.9995 24.8638Z" fill="#06B6D4"/>
+        </svg>
+]
+
 export const ProjectSection = () => {
     return <section id="Projects" className="text-center main-section">
         <Titulo titulo="My Projects" />
-        <div className="flex flex-wrap justify-center mt-16 items-center gap-8 max-w-[966px] mx-auto">
+        <div className="flex flex-wrap justify-center mt-16 gap-8 max-w-[966px] mx-auto">
             <ProjectCard name="Granja Estelar Database"
-                imgUbi="public/GranjaEstelarDB.png"
+                imgUbi="public/Granja Estelar Logo.png"
                 description="Granja Estelar Database is a MySQL database designed to store and manage records related to farm production, providing easy access to information."
-                Icons={iconsGranjaEstelar} />
-            <ProjectCardNoImg name="Granja Estelar Database"
-                description="Granja Estelar Database is a MySQL database designed to store and manage records related to farm production, providing easy access to information."
-                Icons={iconsGranjaEstelar} />
-            <ProjectCardNoImg name="Granja Estelar Database"
-                description="Granja Estelar Database is a MySQL database designed to store and manage records related to farm production, providing easy access to information."
-                Icons={iconsGranjaEstelar} />
+                Icons={iconsGranjaEstelar} 
+                Href="https://github.com/JuanJTorresB/Granja-Estelar-DB.git"/>
+            <ProjectCard name="Starwars API"
+                description="This project makes a request to the SWAPI (Star Wars API) and creates a webpage that allows users to query information about characters, species, planets, and spaceships. The site includes various search filters to help refine the results."
+                imgUbi="public/Captura de pantalla 2024-11-22 063013.png"
+                Icons={iconsStarwarsApi}
+                Href="https://github.com/JuanJTorresB/Proyecto_JavaScript_TorresJuanRuizJoan" />
+            <ProjectCard
+                name="StoryStack"
+                imgUbi="public/ss1.png"
+                description="StoryStack is a web page project that allows users to keep track of all the series, movies, and books they have already read, are currently reading, or plan to read in the future. This project is built on the integration of JavaScript, HTML, and Tailwind CSS to provide a user-friendly and efficient experience."
+                Icons={iconsStarwarsApi}
+                Href="https://github.com/JuanJTorresB/Proyecto_JavaScript_TorresJuan.git" />
+            <ProjectCard name="The Geeks Heaven"
+                imgUbi="public/Captura de pantalla 2024-11-21 201517.png"
+                description="A mobile-optimized webpage built using HTML5 semantic elements, vanilla JavaScript, Box Model, and vanilla CSS, incorporating responsive design principles. The site is designed for the online sale of mangas and comics."
+                Icons={iconsTheGeeksHeaven}
+                Href="https://github.com/JuanJTorresB/The-Geeks-Heaven.git" />
         </div>
     </section>
 }
