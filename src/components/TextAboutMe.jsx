@@ -23,7 +23,7 @@ export const TextAboutMe = ({ text }) => {
                 </a>
             </nav>
         </div>
-        <img className="h-[500px]" src="public/image.png" alt="Profile Photo" />
+        <img className="h-[500px]" src="/image.png" alt="Profile Photo" />
     </div>
 
 }

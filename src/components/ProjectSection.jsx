@@ -4,7 +4,7 @@ import { ProjectCardNoImg } from "./ProjectCardNoImg.jsx"
 
 const iconsGranjaEstelar = [
     /* Star UML */
-    <img src="public/StarUML.png" className="w-20 h-20" />,
+    <img src="/StarUML.png" className="w-20 h-20" />,
     /* My SQL */
     <svg className="w-20 h-20" viewBox="0 0 81 80" fill="none" xmlns="http://www.w3.org/2000/svg">
         <rect x="0.875977" width="80" height="80" rx="15" fill="#EEEEEE" />
@@ -60,28 +60,28 @@ export const ProjectSection = () => {
         <Titulo titulo="My Projects" />
         <div className="flex flex-wrap justify-center mt-16 gap-8 max-w-[966px] mx-auto">
             <ProjectCard name="Granja Estelar Database"
-                imgUbi="public/Granja Estelar Logo.png"
+                imgUbi="/Granja Estelar Logo.png"
                 description="Granja Estelar Database is a MySQL database designed to store and manage records related to farm production, providing easy access to information."
                 Icons={iconsGranjaEstelar}
                 Href="https://github.com/JuanJTorresB/Granja-Estelar-DB.git" />
             <ProjectCard name="Starwars API"
                 description="This project makes a request to the SWAPI (Star Wars API) and creates a webpage that allows users to query information about characters, species, planets, and spaceships. The site includes various search filters to help refine the results."
-                imgUbi="public/Captura de pantalla 2024-11-22 063013.png"
+                imgUbi="/Captura de pantalla 2024-11-22 063013.png"
                 Icons={iconsStarwarsApi}
                 Href="https://github.com/JuanJTorresB/Proyecto_JavaScript_TorresJuanRuizJoan" />
             <ProjectCard
                 name="StoryStack"
-                imgUbi="public/ss1.png"
+                imgUbi="/ss1.png"
                 description="StoryStack is a web page project that allows users to keep track of all the series, movies, and books they have already read, are currently reading, or plan to read in the future. This project is built on the integration of JavaScript, HTML, and Tailwind CSS to provide a user-friendly and efficient experience."
                 Icons={iconsStarwarsApi}
                 Href="https://github.com/JuanJTorresB/Proyecto_JavaScript_TorresJuan.git" />
             <ProjectCard name="The Geeks Heaven"
-                imgUbi="public/Captura de pantalla 2024-11-21 201517.png"
+                imgUbi="/Captura de pantalla 2024-11-21 201517.png"
                 description="A mobile-optimized webpage built using HTML5 semantic elements, vanilla JavaScript, Box Model, and vanilla CSS, incorporating responsive design principles. The site is designed for the online sale of mangas and comics."
                 Icons={iconsTheGeeksHeaven}
                 Href="https://github.com/JuanJTorresB/The-Geeks-Heaven.git" />
             <ProjectCard name="Portfolio"
-                imgUbi="public/Captura de pantalla 2024-11-22 065415.png"
+                imgUbi="/Captura de pantalla 2024-11-22 065415.png"
                 description="Welcome to my portfolio! This website, built with React and Tailwind CSS, is designed to showcase my skills and projects. Explore my work and see what I can do"
                 Icons={iconsPortfolio}
                 Href="https://github.com/JuanJTorresB/Portfolio-JuanTorres-Dev.git" />
