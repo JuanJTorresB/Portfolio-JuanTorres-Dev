@@ -18,11 +18,10 @@
 
 .active{
     min-width: fit-content;
-    min-height: ;
     background-color: #FCD34D;
-    padding-left: 40px;
-    padding-right: 40px;
-    padding-top: 20px;
-    padding-bottom: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
     border-radius: 60px;
 }

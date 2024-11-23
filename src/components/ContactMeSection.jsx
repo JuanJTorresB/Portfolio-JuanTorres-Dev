@@ -54,7 +54,7 @@ export const ContactMeSection = () => {
           name="name"
           value={formData.name}
           onChange={handleChange}
-          className={`${inputBasicStyle} h-[120px] ${generalLetras}`}
+          className={`${inputBasicStyle} h-[120px]  w-[320px] ${generalLetras}`}
           placeholder="Your Name"
           required
         />
@@ -63,7 +63,7 @@ export const ContactMeSection = () => {
           name="email"
           value={formData.email}
           onChange={handleChange}
-          className={`${inputBasicStyle} h-[120px] ${generalLetras}`}
+          className={`${inputBasicStyle} h-[120px]  w-[320px] ${generalLetras}`}
           placeholder="Your Email Address"
           required
         />
