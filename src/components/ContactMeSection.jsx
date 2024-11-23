@@ -54,7 +54,7 @@ export const ContactMeSection = () => {
           name="name"
           value={formData.name}
           onChange={handleChange}
-          className={`${inputBasicStyle} h-[120px]  w-[320px] ${generalLetras}`}
+          className={`${inputBasicStyle} h-[120px]  max-[520px]:w-[320px] ${generalLetras}`}
           placeholder="Your Name"
           required
         />
@@ -63,7 +63,7 @@ export const ContactMeSection = () => {
           name="email"
           value={formData.email}
           onChange={handleChange}
-          className={`${inputBasicStyle} h-[120px]  w-[320px] ${generalLetras}`}
+          className={`${inputBasicStyle} h-[120px] max-[520px]:w-[320px] ${generalLetras}`}
           placeholder="Your Email Address"
           required
         />
@@ -71,12 +71,12 @@ export const ContactMeSection = () => {
           name="message"
           value={formData.message}
           onChange={handleChange}
-          className={`${inputBasicStyle} h-[480px] resize-none ${generalLetras}`}
+          className={`${inputBasicStyle} h-[480px] resize-none max-[520px]:w-[320px] ${generalLetras}`}
           placeholder="Your Message"
           required
         />
         <button type="submit" id="SendButton" className="w-[966px] h-[120px] bg-amber-300 rounded-[60px] flex items-center justify-center gap-x-4">
-          <span className="font-tanNimbus text-6xl text-slate-50">Send</span>
+          <span className="font-tanNimbus text-6xl text-slate-50 ">Send</span>
         </button>
         {/* Linkedin */}
         <a href="https://www.linkedin.com/in/juanjtorresbecerra/?locale=en_US" target="_blank">

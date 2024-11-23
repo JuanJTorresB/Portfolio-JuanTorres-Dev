@@ -18,7 +18,7 @@ export const ProjectCard = ({ name, imgUbi, description, Icons, Href }) => {
 
     let contador = 1;
 
-    return <article className="bg-amber-100 bg-opacity-10 border border-slate-50 backdrop-blur-lg flex w-[320px] p-14 rounded-[60px] gap-x-7 items-center h-full">
+    return <article className="bg-amber-100 bg-opacity-10 border border-slate-50 backdrop-blur-lg flex max-[520px]:w-[320px] p-14 rounded-[60px] gap-x-7 items-center h-full">
         <a href={Href} target="_blank" className="flex justify-center items-center gap-8">
             <div className={"flex flex-col text-amberMine h-full justify-center w-max-screen"}>
                 <h6 className={generalLetras + " font-bold text-[32px] text-wrap"}>{name}</h6>
