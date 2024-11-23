@@ -2,7 +2,7 @@ export const TextAboutMe = ({ text }) => {
 
     const generalLetras = "font-Ysabeau font-normal text-wrap";
 
-    return <div className="flex w-full justify-center gap-24 mt-8">
+    return <div className="flex flex-wrap w-full justify-center gap-24 mt-8">
         <div className="max-w-[550px] p-4">
             <p className={generalLetras + " " + "text-2xl text-justify text-amberMine tracking-wider leading-loose"}>
                 {text}
