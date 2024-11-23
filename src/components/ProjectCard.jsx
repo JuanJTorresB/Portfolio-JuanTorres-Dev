@@ -22,7 +22,7 @@ export const ProjectCard = ({ name, imgUbi, description, Icons, Href }) => {
         <a href={Href} target="_blank" className="flex justify-center items-center gap-8">
             <div className={"flex flex-col text-amberMine h-full justify-center w-max-screen"}>
                 <h6 className={generalLetras + " font-bold text-[32px] text-wrap"}>{name}</h6>
-                <p className={generalLetras + " text-justify tracking-wide font-extralight text-2xl leading-loose pt-5 text-slate-50"}>{description}</p>
+                <p className={generalLetras + " text-ellipsis tracking-wide font-extralight text-2xl leading-loose pt-5 text-slate-50"}>{description}</p>
                 <ul className="flex flex-wrap gap-6 pt-5 justify-center items-cente">
                     {Icons.map((e) => {
                         return (<li key={contador++}>

@@ -8,7 +8,7 @@ export const ProjectCardNoImg = ({ name, description, Icons, Href }) => {
         <a href={Href} target="_blank">
             <div className={"flex flex-col text-amberMine h-full justify-center"}>
                 <h6 className={generalLetras + " font-bold text-[30px]"}>{name}</h6>
-                <p className={generalLetras + " text-justify tracking-wide font-extralight text-2xl leading-loose pt-5 text-slate-50"}>{description}</p>
+                <p className={generalLetras + " text-ellipsis tracking-wide font-extralight text-2xl leading-loose pt-5 text-slate-50"}>{description}</p>
                 <ul className="flex gap-x-6  pt-5">
                     {Icons.map((e) => {
                         return (<li key={contador++}>
