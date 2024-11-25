@@ -25,7 +25,7 @@ export const initScrollObserver = () => {
                 }
             });
         },
-        { threshold: 0.2 } // Se activa cuando el 50% de la sección es visible
+        { threshold: 0.1 } // Se activa cuando el 50% de la sección es visible
     );
 
     // Observar todas las secciones
